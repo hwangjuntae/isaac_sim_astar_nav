@@ -66,7 +66,7 @@ class AStarNavigationNode(Node):
         self.ultimate_goal_pose = PoseStamped()
         self.ultimate_goal_pose.header.frame_id = 'odom'
         self.ultimate_goal_pose.pose.position.x = -6.0
-        self.ultimate_goal_pose.pose.position.y = 8.0  # 필요에 따라 변경
+        self.ultimate_goal_pose.pose.position.y = 16.0  # 필요에 따라 변경
 
         # 초기 로컬 목표 설정
         self.local_goal_pose = PoseStamped()
